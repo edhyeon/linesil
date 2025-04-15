@@ -3,69 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Edhyeon 포트폴리오</title>
-
-  <!-- GitHub 스타일 적용 -->
+  <title>EDHYEON</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-light.min.css" />
-
-  <!-- 기본 스타일 -->
-  <style>
-    body {
-      background: #ffffff;
-      margin: 0;
-      padding: 2rem;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-    }
-
-    .markdown-body {
-      max-width: 800px;
-      margin: 0 auto;
-    }
-
-    .fade-in {
-      opacity: 0;
-      transform: translateY(30px);
-      transition: opacity 0.8s ease, transform 0.8s ease;
-    }
-
-    .fade-in.visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    img {
-      max-width: 100%;
-      border-radius: 8px;
-    }
-
-    table {
-      display: block;
-      width: 100%;
-      overflow-x: auto;
-    }
-
-    td, th {
-      padding: 0.5rem;
-      text-align: center;
-    }
-
-    footer {
-      text-align: center;
-      margin-top: 4rem;
-      color: #999;
-      font-size: 0.9rem;
-    }
-  </style>
+  <link rel="stylesheet" href="./css/common.css" />
 </head>
 <body>
   <article class="markdown-body">
-    <h1 class="fade-in">👋 안녕하세요!</h1>
-    <p class="fade-in"><strong>웹/앱을 만드는 개발자 Edhyeon입니다.</strong><br/>
-    사용자에게 가치를 주는 인터페이스와 기술을 고민합니다.</p>
+    <section>
+      <h1 class="fade-in">👋 안녕하세요!</h1>
+      <p class="fade-in">웹/앱을 만드는 프론트엔드 개발자 <b>동구바</b>입니다.<br/>
+      사용자에게 더 나은 경험을 주는 인터페이스와 기술을 고민합니다.</p>
+    </section>
 
-    <hr class="fade-in"/>
-
+    <section>
     <h2 class="fade-in">🔨 재직 중 프로젝트</h2>
+    
     <h3 class="fade-in">🖥️ 웹 개발</h3>
     <table class="fade-in">
       <tr>
@@ -81,7 +33,6 @@
         <td><img src="./images/project-b-thumb.png" alt="Project B thumbnail" width="200" /></td>
       </tr>
     </table>
-
     <h3 class="fade-in">📱 앱 개발</h3>
     <table class="fade-in">
       <tr>
@@ -97,9 +48,9 @@
         <td><img src="./images/app-beta-thumb.png" alt="App Beta thumbnail" width="200" /></td>
       </tr>
     </table>
+  </section>
 
-    <hr class="fade-in"/>
-
+  <section>
     <h2 class="fade-in">✨ 개인 프로젝트</h2>
     <h3 class="fade-in">🖥️ 웹 개발</h3>
     <table class="fade-in">
@@ -116,6 +67,7 @@
         <td><img src="./images/landing-thumb.png" alt="Landing page thumbnail" width="200" /></td>
       </tr>
     </table>
+    <section>
 
     <h3 class="fade-in">📱 앱 개발</h3>
     <table class="fade-in">
@@ -144,14 +96,13 @@
         <td><img src="./images/api-thumb.png" alt="API Test thumbnail" width="200" /></td>
       </tr>
     </table>
-
-    <hr class="fade-in"/>
+  </section>
 
     <h2 class="fade-in">📫 Contact</h2>
     <ul class="fade-in">
       <li>Email: your.email@example.com</li>
       <li>GitHub: <a href="https://github.com/edhyeon">edhyeon</a></li>
-      <li>Blog: <a href="https://velog.io/@yourname">velog.io/@yourname</a></li>
+      <!-- <li>Blog: <a href="https://velog.io/@edhyeon">velog.io/@edhyeon</a></li> -->
     </ul>
 
     <footer>
@@ -172,7 +123,7 @@
         }
       });
     }, {
-      threshold: 0.1
+      threshold: 0.1,
     });
 
     fadeEls.forEach(el => observer.observe(el));
