@@ -1,13 +1,3 @@
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-<script>
-  $(document).ready(function(){
-      
-  });
-</script>
-<style>
-    body {background:#f9f9f9;}
-</style>
-
 # 👋 안녕하세요!  
 **웹/앱을 만드는 개발자 [당신의 이름]입니다.**  
 사용자에게 가치를 주는 인터페이스와 기술을 고민합니다.
