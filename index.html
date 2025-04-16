@@ -4,8 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>EDHYEON</title>
+
+  <link rel="stylesheet" href="./css/common.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-light.min.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
   <link rel="stylesheet" href="./css/style.css" />
+
+  
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>		
   <script src="./js/common.js"></script>
 </head>
 <body>
@@ -27,7 +33,7 @@
         </tr>
         <tr>
           <td>🖥️</td> 
-          <td><img src="./images/blank.png" alt="Project A thumbnail" width="200" /></td>
+          <td><img src="./images/sample1.jpg" alt="Project A thumbnail" width="200" /></td>
           <td>
               <a href="#">🔗 홈페이지</a>
               <ul>
@@ -40,7 +46,7 @@
         </tr>
         <tr>
           <td>📱</td>
-          <td><img src="./images/blank.png" alt="Project B thumbnail" width="200" /></td>
+          <td><img src="./images/sample2.jpg" alt="Project B thumbnail" width="200" /></td>
           <td>
               <a href="#">🔗 JM 모바일 앱 리뉴얼</a>
               <ul>
@@ -53,7 +59,7 @@
         </tr>
         <tr>
           <td>📱</td>
-          <td><img src="./images/blank.png" alt="Project B thumbnail" width="200" /></td>
+          <td><img src="./images/sample3.jpg" alt="Project B thumbnail" width="200" /></td>
           <td>
             <a href="#">🔗 재능이랑 화상학습</a>
             <ul>
@@ -78,12 +84,12 @@
         <tr>
           <td>🖥️</td>
           <td><a href="#">🔗 Portfolio Site</a></td>
-          <td><img src="./images/blank.png" alt="Portfolio thumbnail" width="200" /></td>
+          <td><img src="./images/sample1.jpg" alt="Portfolio thumbnail" width="200" /></td>
         </tr>
         <tr>
           <td>📱</td>
           <td><a href="#">🔗 Landing Page</a></td>
-          <td><img src="./images/blank.png.png" alt="Landing page thumbnail" width="200" /></td>
+          <td><img src="./images/sample2.jpg" alt="Landing page thumbnail" width="200" /></td>
         </tr>
       </table>
     </section>
@@ -99,7 +105,7 @@
         <tr>
           <td>📱</td>
           <td><a href="#">🔗 GSAP Animation Test</a></td>
-          <td><img src="./images/blank.png.png" alt="GSAP Test thumbnail" width="200" /></td>
+          <td><img src="./images/sample3.jpg" alt="GSAP Test thumbnail" width="200" /></td>
         </tr>
         <tr>
           <td>🖥️</td>
@@ -123,38 +129,42 @@
     </section>
 
     <!-- 레이어 팝업 -->
-    <div style="display:none">
-      <h2 id="detailName">오시는 길</h2>
-      <div class="slider">
-        <div class="swiper visual_slider">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img src="./images/blank.png.png" alt="GSAP Test thumbnail" width="200" />
+    <div class="layer">
+      <div class="layer_content">
+        <h2 id="detailName">재능그룹 메인 비주얼 테스트</h2>
+        <div class="detail_slider">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./images/sample1.jpg" alt="Project thumbnail"/>
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/sample2.jpg" alt="Project thumbnail"/>
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/sample3.jpg" alt="Project thumbnail"/>
+              </div>
             </div>
-            <div class="swiper-slide">
-              <img src="./images/blank.png.png" alt="GSAP Test thumbnail" width="200" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/blank.png.png" alt="GSAP Test thumbnail" width="200" />
-            </div>
+            <div class="swiper-pagination"></div>
           </div>
         </div>
-      </div>
-      <table>
-        <tr>
-          <th>기간</th>
-          <td>2025.04 - 2025.07</td>
-        </tr>
-        <tr>
-          <th>기간</th>
-          <td>2025.04 - 2025.07</td>
-        </tr>
-        <tr>
-          <th>기간</th>
-          <td>2025.04 - 2025.07</td>
-        </tr>
-      </table>
-    </div>  
+        <table class="table_default">
+          <tr>
+            <th>기간</th>
+            <td>2025.04 - 2025.07</td>
+          </tr>
+          <tr>
+            <th>기간</th>
+            <td>2025.04 - 2025.07</td>
+          </tr>
+          <tr>
+            <th>기간</th>
+            <td>2025.04 - 2025.07</td>
+          </tr>
+        </table>
+      </div> 
+    </div>
+    <!-- 레이어 팝업 -->
 
   </article>
 
