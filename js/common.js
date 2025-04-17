@@ -19,8 +19,12 @@ document.addEventListener("DOMContentLoaded", function(){
     var swiper = new Swiper(".swiper", {
       pagination: {
         el: ".swiper-pagination",
-        //dynamicBullets: true,
+        type: "fraction",
       },
+    });
+
+    $(document).on("click", "#layerCloseBtn", function(){
+      $(".layer").fadeOut();
     });
 
 });

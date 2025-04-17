@@ -1,5 +1,8 @@
 /* 레이어 팝업 */
 .layer {position:fixed; top:0; left:0; right:0; bottom:0; background:#fff;}
 .layer_content {width:calc(100% - 40px); max-width:800px; margin:0 auto;}
+.layer_header {position:relative; padding-top:6px;}
+.layer_header button {position:absolute; top:0; right:0; width:30px; height:30px; }
 .detail_slider {margin-bottom:16px;}
 .markdown-body .layer table {display:table; width:100%;}
+.swiper-pagination {}

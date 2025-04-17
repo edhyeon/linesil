@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
   <link rel="stylesheet" href="./css/style.css" />
 
-  
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>		
   <script src="./js/common.js"></script>
 </head>
@@ -131,7 +131,10 @@
     <!-- 레이어 팝업 -->
     <div class="layer">
       <div class="layer_content">
-        <h2 id="detailName">재능그룹 메인 비주얼 테스트</h2>
+        <div class="layer_header">
+          <h2 id="detailName">재능그룹 메인 비주얼 테스트</h2>
+          <button id="layerCloseBtn">&#x2715;</button>
+        </div>
         <div class="detail_slider">
           <div class="swiper">
             <div class="swiper-wrapper">
